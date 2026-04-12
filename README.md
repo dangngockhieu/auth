@@ -2,7 +2,7 @@
 
 Authentication service hoàn chỉnh bằng Spring Boot, Spring Security, JPA/Hibernate, MySQL và JWT với kiến trúc tách lớp rõ ràng, ưu tiên dễ maintain và production-friendly.
 
-Tóm tắt tính năng: [AUTH_FEATURES.md](/home/dungne/up/isCode/localJava/project/auth/AUTH_FEATURES.md)
+Tóm tắt tính năng: [AUTH_FEATURES.md](/AUTH_FEATURES.md)
 
 ## 1. Project Tree
 
