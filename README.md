@@ -58,6 +58,9 @@ auth
 │   │   │   └── util
 │   │   │       ├── annotation
 |   |   |       |   └── ApiMesssage.java
+│   │   │       ├── format_response
+|   |   |       |   ├── FormatResponseResponse.java
+|   |   |       |   └── ResResponse.java
 │   │   │       ├── exception
 |   |   |       |   ├── GlobalException.java
 |   |   |       |   └── .....
