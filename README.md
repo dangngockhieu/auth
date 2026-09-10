@@ -2,6 +2,16 @@
 
 Authentication service hoàn chỉnh bằng Spring Boot, Spring Security, JPA/Hibernate, MySQL và JWT với kiến trúc tách lớp rõ ràng, ưu tiên dễ maintain và production-friendly.
 
+## Cấu hình CORS từ `.env`
+
+Thêm biến sau vào file `.env` ở thư mục gốc project. Có thể khai báo nhiều frontend bằng dấu phẩy:
+
+```dotenv
+CORS_ALLOWED_ORIGINS=http://localhost:5173,https://app.example.com
+```
+
+Biến này là bắt buộc; nếu không khai báo, backend sẽ không khởi động được do thiếu cấu hình CORS.
+
 Tóm tắt tính năng: [AUTH_FEATURES.md](/AUTH_FEATURES.md)
 
 ## 1. Project Tree

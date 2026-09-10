@@ -34,6 +34,9 @@
 #   level:
 #     org.springframework.security: INFO
 
+# cors:
+#   allowed-origins: ${CORS_ALLOWED_ORIGINS}
+
 # PostgreSQL
 spring:
   config:
@@ -67,3 +70,11 @@ app:
     jwt-secret: ${JWT_SECRET}
     access-token-expiration: ${JWT_ACCESS_TOKEN_EXPIRATION}
     refresh-token-expiration: ${JWT_REFRESH_TOKEN_EXPIRATION}
+
+cors:
+  allowed-origins: ${CORS_ALLOWED_ORIGINS}
+
+logging:
+  level:
+    root: INFO
+    org.springframework.security: INFO

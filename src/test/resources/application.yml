@@ -23,6 +23,9 @@
 #     access-token-expiration: 900
 #     refresh-token-expiration: 604800
 
+# cors:
+#   allowed-origins: http://localhost:5173
+
 # PostgreSQLL
 spring:
   datasource:
@@ -47,3 +50,6 @@ app:
     jwt-secret: MDEyMzQ1Njc4OTAxMjM0NTY3ODkwMTIzNDU2Nzg5MDE=
     access-token-expiration: 900
     refresh-token-expiration: 604800
+
+cors:
+  allowed-origins: http://localhost:5173
